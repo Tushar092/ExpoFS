@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#form_cont {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+}
+
+#form > form {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#form > form > input {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
